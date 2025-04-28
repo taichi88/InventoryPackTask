@@ -90,7 +90,7 @@ namespace InventoryPackTask
                         
                         break;
                     case "rope":
-                        Rope rope = new Rope();
+                        Rope rope = new Rope(1, 1.5);
                         currentWeight += rope.Weight;
                         currentVolume += rope.Volume;
                         
