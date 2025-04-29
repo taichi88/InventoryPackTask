@@ -29,6 +29,7 @@ namespace InventoryPackTask
     // es aris custom midgoma da am shemtxvevashi parametrebs vuwert ushualod klasis obieqtis inicializaciisas
 
     class Rope(double weight, double volume) : InventoryClass(weight, volume);
+
     class Water() : InventoryClass(2, 3);
     class Food() : InventoryClass(1, 0.5);
     class Sword() : InventoryClass(5, 3);
